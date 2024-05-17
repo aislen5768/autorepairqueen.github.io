@@ -1,0 +1,2846 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+	
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+
+.mainimageslay{
+	position: absolute;
+	top: 80px;
+	right: 0px;
+	max-width: 100%;
+    height: auto;
+    width: auto\9;
+
+}
+.welcome{
+    position:relative;
+	text-align:center;
+	font-size:20px;
+	color:rgb(255, 255, 255);
+	top:150px;
+	border-width:3px; 
+	border-style:solid; 
+	border-color:#000000; 
+	background-color:#12355B; 
+	padding: 1em; 
+	
+	
+
+	
+}
+.secondword{
+	color:rgb(0, 0, 0);
+	position:relative;
+	text-align:center;
+	font-size:15px;
+	top:250px;
+	font-family:verdana;
+	border-width:3px; 
+	border-style:solid; 
+	border-color:#000000; 
+	background-color:#778472; 
+	padding: 1em; 
+	
+}
+.thirdintro{
+	color:black;
+	position:relative;
+	text-align:center;
+	font-family:verdana;
+	top:300px;
+	font-size:15px;
+
+}
+.thirdintrosecond{
+	color:black;
+	position:relative;
+	text-align:center;
+	font-family:verdana;
+	top:350px;
+	font-size:15px;
+}
+.nestor3rdimage{
+	position: absolute;
+	top: 800px;
+	right: 0px;
+	max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+.fourthword{
+	color:black;
+	position:relative;
+	text-align:center;
+	font-size:25px;
+	font-family:verdana;
+	top:750px;
+}
+.firstreview{
+	color:white;
+	position:relative;
+	text-align:center;
+	font-size:15px;
+	font-family:verdana;
+	top:800px;
+	border-width:3px; 
+	border-style:solid; 
+	border-color:#000000; 
+	background-color:#778472; 
+	padding: 1em; 
+}
+.secondreview{
+	color:white;
+	position:relative;
+	text-align:center;
+	font-size:15px;
+	font-family:verdana;
+	top:820px;
+	border-width:3px; 
+	border-style:solid; 
+	border-color:#000000; 
+	background-color:#778472; 
+	padding: 1em; 
+}
+.thirdreview{
+	color:white;
+	position:relative;
+	text-align:center;
+	font-size:15px;
+	font-family:verdana;
+	top:840px;
+	border-width:3px; 
+	border-style:solid; 
+	border-color:#000000; 
+	background-color:#778472; 
+	padding: 1em; 
+}
+.nestorpark{
+	position: absolute;
+	top: 1600px;
+	right: 0px;
+	max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+.contactnestor{
+	color:black;
+	position:relative;
+	text-align:center;
+	font-size:25px;
+	font-family:verdana;
+	top:1200px;
+}
+.location{
+	color:black;
+	position:relative;
+	text-align:center;
+	font-size:15px;
+	font-family:verdana;
+	top:1210px;
+}
+.hours{
+	color:black;
+	position:relative;
+	text-align:center;
+	font-size:15px;
+	font-family:verdana;
+	top:1220px;
+}
+.emailphone{
+	color:black;
+	position:relative;
+	text-align:center;
+	font-size:15px;
+	font-family:verdana;
+	top:1230px;
+}
+.terryslay{
+	position: absolute;
+	top: 2150px;
+	right: 0px;
+	max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+.aislenweb{
+	position:absolute;
+	top:2400px ;
+	left:0%;
+	right:0%;
+	font-size:15px;
+	background-color:#80AB82;
+	width: auto;
+	text-align: center;
+	color:white;
+}
+
+@media all and (min-width:365px){
+	.welcome{
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		color:rgb(255, 255, 255);
+		top:170px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#12355B; 
+		padding: 1em; 
+		
+		
+	
+		
+	}
+	.secondword{
+		color:rgb(0, 0, 0);
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		top:280px;
+		font-family:verdana;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		
+	}
+	.thirdintro{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:330px;
+		font-size:15px;
+	
+	}
+	.thirdintrosecond{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:380px;
+		font-size:15px;
+	}
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:1260px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1270px;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1280px;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1290px;
+	}
+	.aislenweb{
+		position:absolute;
+		top:2430px ;
+		left:0%;
+		right:0%;
+		font-size:15px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:380px){
+	.welcome{
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		color:rgb(255, 255, 255);
+		top:190px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#12355B; 
+		padding: 1em; 
+		
+		
+	
+		
+	}
+	.secondword{
+		color:rgb(0, 0, 0);
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		top:300px;
+		font-family:verdana;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		
+	}
+	.thirdintro{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:350px;
+		font-size:15px;
+	
+	}
+	.thirdintrosecond{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:400px;
+		font-size:15px;
+	}
+	.fourthword{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:790px;
+	}
+	.firstreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:840px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.secondreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:860px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.thirdreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:880px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:1270px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1280px;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1290px;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1300px;
+	}
+	.aislenweb{
+		position:absolute;
+		top:2450px ;
+		left:0%;
+		right:0%;
+		font-size:15px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:400px){
+	.aislenweb{
+		position:absolute;
+		top:2470px ;
+		left:0%;
+		right:0%;
+		font-size:15px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:422px){
+	.secondword{
+		color:rgb(0, 0, 0);
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		top:320px;
+		font-family:verdana;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		
+	}
+	.fourthword{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:820px;
+	}
+	.firstreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:860px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.secondreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:880px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.thirdreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:900px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:1300px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1310px;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1320px;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1330px;
+	}
+	.terryslay{
+		position: absolute;
+		top: 2180px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.aislenweb{
+		position:absolute;
+		top:2500px ;
+		left:0%;
+		right:0%;
+		font-size:15px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:440px){
+	.secondword{
+		color:rgb(0, 0, 0);
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		top:350px;
+		font-family:verdana;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		
+	}
+	.thirdintro{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:390px;
+		font-size:15px;
+	
+	}
+	.thirdintrosecond{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:430px;
+		font-size:15px;
+	}
+	.fourthword{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:850px;
+	}
+	.firstreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:890px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.secondreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:910px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.thirdreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:930px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:1340px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1350px;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1360px;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1370px;
+	}
+	.terryslay{
+		position: absolute;
+		top: 2180px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.aislenweb{
+		position:absolute;
+		top:2530px ;
+		left:0%;
+		right:0%;
+		font-size:15px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:460px){
+	.welcome{
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		color:rgb(255, 255, 255);
+		top:220px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#12355B; 
+		padding: 1em; 
+		
+		
+	
+		
+	}
+	.secondword{
+		color:rgb(0, 0, 0);
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		top:390px;
+		font-family:verdana;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		
+	}
+	.thirdintro{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:420px;
+		font-size:15px;
+	
+	}
+	.thirdintrosecond{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:450px;
+		font-size:15px;
+	}
+	.fourthword{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:910px;
+	}
+	.firstreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:940px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.secondreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:950px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.thirdreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:960px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:1370px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1380px;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1390px;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1400px;
+	}
+	.terryslay{
+		position: absolute;
+		top: 2200px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.aislenweb{
+		position:absolute;
+		top:2570px ;
+		left:0%;
+		right:0%;
+		font-size:15px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}	
+}
+@media all and (min-width:480px){
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:1450px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1460px;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1470px;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1480px;
+	}
+	.terryslay{
+		position: absolute;
+		top: 2300px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.aislenweb{
+		position:absolute;
+		top:2680px ;
+		left:0%;
+		right:0%;
+		font-size:15px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:520px){
+	.welcome{
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		color:rgb(255, 255, 255);
+		top:220px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#12355B; 
+		padding: 1em; 
+		
+		
+	
+		
+	}
+	.secondword{
+		color:rgb(0, 0, 0);
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		top:450px;
+		font-family:verdana;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		
+	}
+	.thirdintro{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:500px;
+		font-size:20px;
+	
+	}
+	.thirdintrosecond{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:550px;
+		font-size:20px;
+	}
+	.nestor3rdimage{
+		position: absolute;
+		top: 950px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.fourthword{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:1070px;
+	}
+	.firstreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1080px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.secondreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1090px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.thirdreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1100px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.nestorpark{
+		position: absolute;
+		top: 1800px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:1740px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1750px;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1760px;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:15px;
+		font-family:verdana;
+		top:1770px;
+	}
+	.terryslay{
+		position: absolute;
+		top: 2600px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.aislenweb{
+		position:absolute;
+		top:3040px ;
+		left:0%;
+		right:0%;
+		font-size:15px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:600px){
+	.welcome{
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		color:rgb(255, 255, 255);
+		top:260px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#12355B; 
+		padding: 1em; 
+		
+		
+	
+		
+	}
+	.secondword{
+		color:rgb(0, 0, 0);
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		top:500px;
+		font-family:verdana;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		
+	}
+	.thirdintro{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:550px;
+		font-size:20px;
+	
+	}
+	.thirdintrosecond{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:600px;
+		font-size:20px;
+	}
+	.nestor3rdimage{
+		position: absolute;
+		top: 1050px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.fourthword{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:1270px;
+	}
+	.firstreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:1280px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.secondreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:1290px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.thirdreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:1300px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.nestorpark{
+		position: absolute;
+		top: 2000px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:30px;
+		font-family:verdana;
+		top:1920px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:1930px;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:1940px;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:1950px;
+	}
+	.terryslay{
+		position: absolute;
+		top: 2800px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.aislenweb{
+		position:absolute;
+		top:3300px ;
+		left:0%;
+		right:0%;
+		font-size:20px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:700px){
+	.welcome{
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		color:rgb(255, 255, 255);
+		top:280px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#12355B; 
+		padding: 1em; 
+		
+		
+	
+		
+	}
+	.secondword{
+		color:rgb(0, 0, 0);
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		top:700px;
+		font-family:verdana;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		
+	}
+	.thirdintro{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:750px;
+		font-size:20px;
+	
+	}
+	.thirdintrosecond{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:800px;
+		font-size:20px;
+	}
+	.nestor3rdimage{
+		position: absolute;
+		top: 1200px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.fourthword{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:1570px;
+	}
+	.firstreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:1580px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.secondreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:1590px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.thirdreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:1600px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.nestorpark{
+		position: absolute;
+		top: 2300px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:30px;
+		font-family:verdana;
+		top:2290px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:2300px;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:2310px;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:2320px;
+	}
+	.terryslay{
+		position: absolute;
+		top: 3200px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.aislenweb{
+		position:absolute;
+		top:3750px ;
+		left:0%;
+		right:0%;
+		font-size:20px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:750px){
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:30px;
+		font-family:verdana;
+		top:2350px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:2360px;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:2370px;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:2380px;
+	}
+	.terryslay{
+		position: absolute;
+		top: 3200px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.aislenweb{
+		position:absolute;
+		top:3780px ;
+		left:0%;
+		right:0%;
+		font-size:20px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:800px){
+	.welcome{
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		color:rgb(255, 255, 255);
+		top:350px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#12355B; 
+		padding: 1em; 
+		
+		
+	
+		
+	}
+	.fourthword{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:1670px;
+	}
+	.firstreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:1680px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.secondreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:1690px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.thirdreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:1700px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:30px;
+		font-family:verdana;
+		top:2440px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:2450px;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:2460px;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:2470px;
+	}
+	.terryslay{
+		position: absolute;
+		top: 3300px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.aislenweb{
+		position:absolute;
+		top:3970px ;
+		left:0%;
+		right:0%;
+		font-size:20px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:900px){
+	.welcome{
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		color:rgb(255, 255, 255);
+		top:380px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#12355B; 
+		padding: 1em; 
+		
+		
+	
+		
+	}
+	.secondword{
+		color:rgb(0, 0, 0);
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		top:800px;
+		font-family:verdana;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		
+	}
+	.thirdintro{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:850px;
+		font-size:20px;
+	
+	}
+	.thirdintrosecond{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:900px;
+		font-size:20px;
+	}
+	.nestor3rdimage{
+		position: absolute;
+		top: 1300px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.fourthword{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:1820px;
+	}
+	.firstreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:1830px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.secondreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:1840px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.thirdreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:1850px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+	}
+	.nestorpark{
+		position: absolute;
+		top: 2450px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:30px;
+		font-family:verdana;
+		top:2670px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:2680px;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:2690px;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:20px;
+		font-family:verdana;
+		top:2700px;
+	}
+	.terryslay{
+		position: absolute;
+		top: 3500px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.aislenweb{
+		position:absolute;
+		top:4200px ;
+		left:0%;
+		right:0%;
+		font-size:20px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:960px){
+	.aislenweb{
+		position:absolute;
+		top:4240px ;
+		left:0%;
+		right:0%;
+		font-size:20px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:1000px){
+	.welcome{
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		color:rgb(255, 255, 255);
+		top:410px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#12355B; 
+		padding: 1em; 
+		
+		
+	
+		
+	}
+	.secondword{
+		color:rgb(0, 0, 0);
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		top:800px;
+		font-family:verdana;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		
+	}
+	.thirdintro{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:900px;
+		font-size:28px;
+		line-height:2em;
+	
+	}
+	.thirdintrosecond{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:1000px;
+		font-size:28px;
+		line-height: 2em;
+		
+	}
+	.nestor3rdimage{
+		position: absolute;
+		top: 1550px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.fourthword{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:30px;
+		font-family:verdana;
+		top:2050px;
+	}
+	.firstreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:2100px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		line-height:1.7em;
+	}
+	.secondreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:2150px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		line-height:1.7em;
+	}
+	.thirdreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:2200px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		line-height:1.7em;
+	}
+	.nestorpark{
+		position: absolute;
+		top: 3200px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:33px;
+		font-family:verdana;
+		top:3120px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:23px;
+		font-family:verdana;
+		top:3130px;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:23px;
+		font-family:verdana;
+		top:3140px;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:23px;
+		font-family:verdana;
+		top:3150px;
+	}
+	.terryslay{
+		position: absolute;
+		top: 4400px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.aislenweb{
+		position:absolute;
+		top:5180px ;
+		left:0%;
+		right:0%;
+		font-size:20px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:1050px){
+	.aislenweb{
+		position:absolute;
+		top:5220px ;
+		left:0%;
+		right:0%;
+		font-size:20px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:1100px){
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:33px;
+		font-family:verdana;
+		top:3220px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:23px;
+		font-family:verdana;
+		top:3230px;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:23px;
+		font-family:verdana;
+		top:3240px;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:23px;
+		font-family:verdana;
+		top:3250px;
+	}
+	.aislenweb{
+		position:absolute;
+		top:5240px ;
+		left:0%;
+		right:0%;
+		font-size:20px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:1150px){
+	.secondword{
+		color:rgb(0, 0, 0);
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		top:850px;
+		font-family:verdana;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		
+	}
+	.thirdintro{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:950px;
+		font-size:28px;
+		line-height:2em;
+	
+	}
+	.thirdintrosecond{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:1000px;
+		font-size:28px;
+		line-height: 2em;
+		
+	}
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:33px;
+		font-family:verdana;
+		top:3270px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:23px;
+		font-family:verdana;
+		top:3280px;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:23px;
+		font-family:verdana;
+		top:3290px;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:23px;
+		font-family:verdana;
+		top:3300px;
+	}
+	.terryslay{
+		position: absolute;
+		top: 4400px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.aislenweb{
+		position:absolute;
+		top:5280px ;
+		left:0%;
+		right:0%;
+		font-size:20px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:1200px){
+	.welcome{
+		position:relative;
+		text-align:center;
+		font-size:30px;
+		color:rgb(255, 255, 255);
+		top:410px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#12355B; 
+		padding: 1em; 
+		
+		
+	
+		
+	}
+	.secondword{
+		color:rgb(0, 0, 0);
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		top:1000px;
+		font-family:verdana;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		
+	}
+	.thirdintro{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:1200px;
+		font-size:28px;
+		line-height:2em;
+	
+	}
+	.thirdintrosecond{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:1300px;
+		font-size:28px;
+		line-height: 2em;
+		
+	}
+	.nestor3rdimage{
+		position: absolute;
+		top: 1850px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.fourthword{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:30px;
+		font-family:verdana;
+		top:2500px;
+	}
+	.firstreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:2610px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		line-height:1.7em;
+	}
+	.secondreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:2620px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		line-height:1.7em;
+	}
+	.thirdreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:2630px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		line-height:1.7em;
+	}
+	.nestorpark{
+		position: absolute;
+		top: 3600px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:33px;
+		font-family:verdana;
+		top:3870px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:23px;
+		font-family:verdana;
+		top:3880px;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:23px;
+		font-family:verdana;
+		top:3890px;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:23px;
+		font-family:verdana;
+		top:3900px;
+	}
+	.terryslay{
+		position: absolute;
+		top: 5000px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.aislenweb{
+		position:absolute;
+		top:5950px ;
+		left:0%;
+		right:0%;
+		font-size:20px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:1300px){
+	.secondword{
+		color:rgb(0, 0, 0);
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		top:1100px;
+		font-family:verdana;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		
+	}
+	.aislenweb{
+		position:absolute;
+		top:6000px ;
+		left:0%;
+		right:0%;
+		font-size:20px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:1350px){
+	.aislenweb{
+		position:absolute;
+		top:6100px ;
+		left:0%;
+		right:0%;
+		font-size:20px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:1500px){
+	.welcome{
+		position:relative;
+		text-align:center;
+		font-size:30px;
+		color:rgb(255, 255, 255);
+		top:410px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#12355B; 
+		padding: 1em; 
+		
+		
+	
+		
+	}
+	.secondword{
+		color:rgb(0, 0, 0);
+		position:relative;
+		text-align:center;
+		font-size:30px;
+		top:1200px;
+		font-family:verdana;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		
+	}
+	.thirdintro{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:1300px;
+		font-size:28px;
+		line-height:2em;
+	
+	}
+	.thirdintrosecond{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:1350px;
+		font-size:28px;
+		line-height: 2em;
+		
+	}
+	.nestor3rdimage{
+		position: absolute;
+		top: 1950px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.fourthword{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:40px;
+		font-family:verdana;
+		top:2750px;
+	}
+	.firstreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:2830px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		line-height:1.7em;
+	}
+	.secondreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:2840px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		line-height:1.7em;
+	}
+	.thirdreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:2850px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		line-height:1.7em;
+	}
+	.nestorpark{
+		position: absolute;
+		top: 3800px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:35px;
+		font-family:verdana;
+		top:4270px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:4280px;
+		line-height:1.7em;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:4290px;
+		line-height:1.7em;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:4300px;
+		line-height:1.7em;
+	}
+	.terryslay{
+		position: absolute;
+		top: 5500px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.aislenweb{
+		position:absolute;
+		top:6700px ;
+		left:0%;
+		right:0%;
+		font-size:20px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:1600px){
+	.fourthword{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:40px;
+		font-family:verdana;
+		top:2900px;
+	}
+	.firstreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:2930px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		line-height:1.7em;
+	}
+	.secondreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:2940px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		line-height:1.7em;
+	}
+	.thirdreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:25px;
+		font-family:verdana;
+		top:2950px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		line-height:1.7em;
+	}
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:35px;
+		font-family:verdana;
+		top:4340px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:4350px;
+		line-height:1.7em;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:4360px;
+		line-height:1.7em;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:4370px;
+		line-height:1.7em;
+	}
+	.aislenweb{
+		position:absolute;
+		top:6800px ;
+		left:0%;
+		right:0%;
+		font-size:20px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width:1700px){
+	.welcome{
+		position:relative;
+		text-align:center;
+		font-size:35px;
+		color:rgb(255, 255, 255);
+		top:430px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#12355B; 
+		padding: 1em; 
+		
+		
+	
+		
+	}
+	.secondword{
+		color:rgb(0, 0, 0);
+		position:relative;
+		text-align:center;
+		font-size:30px;
+		top:1350px;
+		font-family:verdana;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		
+	}
+	.thirdintro{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:1450px;
+		font-size:32px;
+		line-height:2em;
+	
+	}
+	.thirdintrosecond{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-family:verdana;
+		top:1470px;
+		font-size:32px;
+		line-height: 2em;
+		
+	}
+	.nestor3rdimage{
+		position: absolute;
+		top: 2050px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.fourthword{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:45px;
+		font-family:verdana;
+		top:3000px;
+	}
+	.firstreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:3100px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		line-height:1.7em;
+	}
+	.secondreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:3110px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		line-height:1.7em;
+	}
+	.thirdreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:3120px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		line-height:1.7em;
+	}
+	.nestorpark{
+		position: absolute;
+		top: 4100px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:35px;
+		font-family:verdana;
+		top:4670px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:4680px;
+		line-height:1.7em;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:4690px;
+		line-height:1.7em;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:4700px;
+		line-height:1.7em;
+	}
+	.terryslay{
+		position: absolute;
+		top: 6000px;
+		right: 0px;
+		max-width: 100%;
+		height: auto;
+		width: auto\9;
+	}
+	.aislenweb{
+		position:absolute;
+		top:7400px ;
+		left:0%;
+		right:0%;
+		font-size:20px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+@media all and (min-width: 1900px) {
+	.welcome{
+		position:relative;
+		text-align:center;
+		font-size:35px;
+		color:rgb(255, 255, 255);
+		top:430px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#12355B; 
+		padding: 1em; 
+		
+		
+	
+		
+	}
+	.fourthword{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:45px;
+		font-family:verdana;
+		top:3140px;
+	}
+	.firstreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:3180px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		line-height:1.7em;
+	}
+	.secondreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:3190px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		line-height:1.7em;
+	}
+	.thirdreview{
+		color:white;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:3200px;
+		border-width:3px; 
+		border-style:solid; 
+		border-color:#000000; 
+		background-color:#778472; 
+		padding: 1em; 
+		line-height:1.7em;
+	}
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:35px;
+		font-family:verdana;
+		top:4770px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:4780px;
+		line-height:1.7em;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:4790px;
+		line-height:1.7em;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:4800px;
+		line-height:1.7em;
+	}
+	.aislenweb{
+		position:absolute;
+		top:7450px ;
+		left:0%;
+		right:0%;
+		font-size:20px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+	
+	
+	
+} 
+@media all and (min-width:1950px){
+	.contactnestor{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:35px;
+		font-family:verdana;
+		top:4840px;
+	}
+	.location{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:4850px;
+		line-height:1.7em;
+	}
+	.hours{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:4860px;
+		line-height:1.7em;
+	}
+	.emailphone{
+		color:black;
+		position:relative;
+		text-align:center;
+		font-size:27px;
+		font-family:verdana;
+		top:4870px;
+		line-height:1.7em;
+	}
+	.aislenweb{
+		position:absolute;
+		top:7500px ;
+		left:0%;
+		right:0%;
+		font-size:20px;
+		background-color:#80AB82;
+		width: auto;
+		text-align: center;
+		color:white;
+	}
+}
+
+
+
